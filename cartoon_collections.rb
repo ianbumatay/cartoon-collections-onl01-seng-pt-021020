@@ -6,22 +6,21 @@ def roll_call_dwarves(dwarf)# code an argument here
 end
 roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
 
-def summon_captain_planet(captain)# code an argument here
+def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
    new_array = []
-   captain.map do |element|
+   planeteer_calls.map do |element|
    new_array << "#{element.capitalize} !"
-    end
+  end
     new_array
 end
-summon_captain_planet(planeteer_calls = ["earth", "wind", "fire", "water", "heart"])
+summon_captain_planet(["earth", "wind", "fire", "water", "heart"])
 
-#def long_planeteer_calls(short_words)# code an argument here
+def long_planeteer_calls(short_words)# code an argument here
   # Your code here
 
+end
 
-  end
-  #short_words(["puff", "go", "two"])
 
 def find_the_cheese# code an argument here
   # the array below is here to help
