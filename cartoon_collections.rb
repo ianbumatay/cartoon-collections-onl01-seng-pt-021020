@@ -28,4 +28,8 @@ long_planeteer_calls(["puff", "go", "two"])
 def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+
+  cheesetypes.find do |cheese|
+   cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
+ end
 end
