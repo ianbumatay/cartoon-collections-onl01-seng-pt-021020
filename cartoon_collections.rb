@@ -18,8 +18,11 @@ summon_captain_planet(["earth", "wind", "fire", "water", "heart"])
 
 def long_planeteer_calls(short_words)# code an argument here
   # Your code here
-
+  short_words.any? do |element |
+    element > 4
+  end
 end
+long_planeteer_calls(["puff", "go", "two"])
 
 
 def find_the_cheese# code an argument here
