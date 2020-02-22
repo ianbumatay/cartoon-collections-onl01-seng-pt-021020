@@ -10,9 +10,9 @@ def summon_captain_planet(captain)# code an argument here
   # Your code here
    capitalize_array = captain.capitalize
    capitalize_array.map do | element|
-       element + "!"
-  end
-  
+      puts element + "!"
+     end
+
 end
 summon_captain_planet(planeteer_calls = ["earth", "wind", "fire", "water", "heart"])
 
