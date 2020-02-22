@@ -9,7 +9,7 @@ roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
 def summon_captain_planet(captain)# code an argument here
   # Your code here
   captain.map do | element|
-    puts element
+    puts element.capitalize!
   end
 end
 summon_captain_planet(planeteer_calls = ["earth", "wind", "fire", "water", "heart"])
