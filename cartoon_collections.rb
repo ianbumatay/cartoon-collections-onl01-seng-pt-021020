@@ -8,10 +8,12 @@ roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
 
 def summon_captain_planet(captain)# code an argument here
   # Your code here
-  origuinal_array = captain.capitalize!
-  original_array.map do | element|
-    puts element
+
+  new_array = []
+  captain.map do | element|
+    new_array << element.capitalize!
   end
+  new_array
 end
 summon_captain_planet(planeteer_calls = ["earth", "wind", "fire", "water", "heart"])
 
