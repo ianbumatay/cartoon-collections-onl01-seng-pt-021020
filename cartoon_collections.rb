@@ -8,11 +8,10 @@ roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
 
 def summon_captain_planet(captain)# code an argument here
   # Your code here
-   capitalize_array = captain.capitalize
-   capitalize_array.map do | element|
+   cap_array = captain.split(" ")
+   cap_array.map do |element|
       puts element + "!"
-     end
-
+    end
 end
 summon_captain_planet(planeteer_calls = ["earth", "wind", "fire", "water", "heart"])
 
