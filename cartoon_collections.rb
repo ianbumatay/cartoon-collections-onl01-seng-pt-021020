@@ -11,7 +11,7 @@ def summon_captain_planet(captain)# code an argument here
 
   new_array = []
   captain.map do | element|
-    new_array << element.capitalize!
+    new_array << element.capitalize
   end
   new_array
 end
